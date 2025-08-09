@@ -2,12 +2,15 @@
 
 module k8s.io/mount-utils
 
-go 1.24.0
+go 1.24.3
 
 godebug default=go1.24
 
 require (
+	github.com/go-ole/go-ole v1.3.0
+	github.com/microsoft/wmi v0.34.0
 	github.com/moby/sys/mountinfo v0.7.2
+	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/sys v0.33.0
 	k8s.io/klog/v2 v2.130.1
